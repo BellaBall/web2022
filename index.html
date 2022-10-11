@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="ja">
 
- <head>
-  <meta charset="UTF-8">
-  <title> Web開発の練習2</title>
-  <meta name="keywords" content="城西大学,Josai University,埼玉県,坂戸市,東京都,千代田区,川角,東武越生線,麹町,永田町,埼玉県,坂戸市,東京都,千代田区,川角,東武越生線,麹町,永田町,経済学部,現代政策学部,経営学部,理学部,薬学部,経済学研究科,経営学研究科,理学研究科,薬学研究科,城西短期大学 ビジネス総合学科" />
-  <meta name="description" content="城西大学は「学問による人間形成」を建学の精神に掲げ、現代社会が求めている人材の育成を教育の最重要課題として取り組んでいます。" />
+<head>
+<meta charset="UTF-8">
+<title> Web開発の練習2</title>
+<meta name="keywords" content="城西大学,Josai University,埼玉県,坂戸市,東京都,千代田区,川角,東武越生線,麹町,永田町,埼玉県,坂戸市,東京都,千代田区,川角,東武越生線,麹町,永田町,経済学部,現代政策学部,経営学部,理学部,薬学部,経済学研究科,経営学研究科,理学研究科,薬学研究科,城西短期大学 ビジネス総合学科" />
+<meta name="description" content="城西大学は「学問による人間形成」を建学の精神に掲げ、現代社会が求めている人材の育成を教育の最重要課題として取り組んでいます。" />
   
-  <script src="myjs.js"></script> <!-- この行を追加 -->
-  <script src="myjs.js"></script>
+<link rel="stylesheet" href="mystyle.css"> <!-- この行を追加 -->
+<script src="myjs.js"></script> <!-- この行を追加 -->
+<script src="./JS/1.js"></script>
+<script src="ex06-1.js"></script>
+<script src="ex06-4.js"></script>
 </head>
 
- <script src="ex6-1.js"></script>
- </head>
-
+<body>
 
 <h1>練習問題2.4</h1>
 <table>
-  <caption><strong>お寿司をどこで食べるか？その長所と短所</strong>
-    <details><summary>このテーブルの説明</summary>
-      <p>以下のテーブルでは、２番目のカラムに寿司店のタイプが入れられています。その左側にそのようなタイプのお店でお寿司を食べる場合の長所が、
-        右側に短所が入れられています。</p>
-    </details>
-  </caption>
-  <thead>
-    <tr><th>長所</th><th>どこで食べるか</th><th>短所</th></tr></thead>
-  <tbody>
-    <tr><td>ネタにこだわり、技術が素晴らしい</td>
-      <th>銀座の高級店</th><td>値段が時価で不安、予約が必要</td></tr>
-    <tr><td>値段が良心的、気軽に手に取れる</td>
-      <th>回転寿司</th><td>ネタが解凍もの、休みの日は混む</td></tr>
-  </tbody>
-  </table> 
+<caption><strong>お寿司をどこで食べるか？その長所と短所</strong>
+<details><summary>このテーブルの説明</summary>
+<p>以下のテーブルでは、２番目のカラムに寿司店のタイプが入れられています。その左側にそのようなタイプのお店でお寿司を食べる場合の長所が、右側に短所が入れられています。</p>
+</details>
+</caption>
+<thead>
+<tr><th class="important">長所</th><th>どこで食べるか</th><th>短所</th></tr></thead>
+<tbody>
+<tr><td>ネタにこだわり、技術が素晴らしい</td>
+<th>銀座の高級店</th><td>値段が時価で不安、予約が必要</td></tr>
+<tr><td>値段が良心的、気軽に手に取れる</td>
+<th>回転寿司</th><td>ネタが解凍もの、休みの日は混む</td></tr>
+</tbody>
+</table> 
 <p>
 <p>
-  <table>
-    <caption><strong>お寿司をどこで食べるか？その長所と短所</strong></caption>
-    <thead>
-      <tr><th>どこで食べるか</th><th>長所</th><th>短所</th></tr>
-    </thead>
-    <tbody>
-      <tr><th>銀座の高級店</th><td>ネタにこだわり、技術が素晴らしい</td><td>値段が時価で不安、予約が必要</td></tr>
-      <tr><th>回転寿司</th><td>値段が良心的、気軽に手に取れる</td><td>ネタが解凍もの、休みの日は混む</td></tr>
-    </tbody>
-  </table>
+<table>
+<caption><strong>お寿司をどこで食べるか？その長所と短所</strong></caption>
+<thead>
+<tr><th>どこで食べるか</th><th class="important">長所</th><th>短所</th></tr>
+</thead>
+ <tbody>
+<tr><th>銀座の高級店</th><td>ネタにこだわり、技術が素晴らしい</td><td>値段が時価で不安、予約が必要</td></tr>
+<tr><th>回転寿司</th><td>値段が良心的、気軽に手に取れる</td><td>ネタが解凍もの、休みの日は混む</td></tr>
+</tbody>
+</table>
 <br>
-
 <p class="sample1">セキュリティ対策は今後ますます重要になるでしょう。</p>
 <p class="sample2">セキュリティ対策は今後ますます重要になるでしょう。</p>
 <p class="sample3">セキュリティ対策は今後ますます重要になるでしょう。</p>
 <br>
-
+<h1>練習問題6.2</h1>
 <input type="button" value="ここをクリック" onclick="sayhello61();">
-<input type="button" value="ここをクリック" onclick="sayhello();sayhello();">
+<h1>練習問題6.3</h1>
+<input type="button" value="ここをクリック" onclick="sayhello61();sayhello61();">
+<br>
+<h1>練習問題6.4</h1>
+<input type="button" value="ここをクリック" onclick="goodbye();">
+<br>
+  
 </body>
 </html>
