@@ -19,6 +19,3 @@ function startfnc() {
 //関数hyouji()を1000ミリ秒間隔で呼び出す
 setInterval("hyouji()",1000); }
 
-function mes() {
-alert("3秒経ちました!");
-}
